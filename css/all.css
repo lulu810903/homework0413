@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*-----------------------------------*/
+.top{
+	width: 950px;
+	height: 110px;
+	margin: 0px auto;
+	margin-top: 10px;
+	/*背景漸層*/
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #FFFFFF),
+	color-stop(1, #DED7DE)
+	);
+	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #DED7DE 100%);
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #DED7DE 100%);
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #DED7DE 100%);
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #DED7DE 100%);
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #DED7DE 100%);
+}
+
+.buttom{
+	float: right;
+	padding: 5px 5px 5px 5px;
+	margin-right: 10px;
+}
+.word{
+	text-align: center;
+	font-weight: bold;
+	color: gray;
+	margin: 0px 5px 0px 5px;
+	
+}
+.pic{
+	padding: 5px 5px 5px 10px;
+}
+
+
+.logo{
+	float: left;
+	margin: 20px 30px 10px 40px;
+}
+/*------------------------------------*/
+.center{
+	margin: 0px auto;
+	width: 950px;
+	height:200px;
+	background: white;
+}
+
+.content{
+	width: 500px;
+	float: left;
+	margin: 20px 10px 10px 20px;
+	padding-left: 30px;
+}
+h1{
+	font-size:30px;
+	color:blue;
+	text-decoration: underline;
+}
+p{
+	color:gray;
+}
+.sofa{
+  	width: 200px;
+	height:150px;
+  	background:white;
+  	background-image:url(../pic/demo.png);
+  	background-repeat:no-repeat;
+  	float: right;
+  	margin: 20px 50px 10px 30px;
+  	padding: 0px 20px 0px 30px;
+
+}
+.price{
+	text-align:center;
+	font-weight: bold;
+	width: 100px;
+	height:30px;
+	padding:130px 0px 0px 45px;
+}
+
+/*--------------------------------------*/
+.bottom{
+	margin: 0px auto;
+	width: 9500px;
+	height: 300px;
+	padding: 10px 0px 0px 250px;
+	
+}
+.product{
+	float:left;
+	width:250px; 
+	height:350px;
+	margin-left: 20px;
+	margin-right: 20px;
+	/*背景漸層*/
+	background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #FFFFFF),
+	color-stop(1, #DED7DE)
+	);
+	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #DED7DE 100%);
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #DED7DE 100%);
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #DED7DE 100%);
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #DED7DE 100%);
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #DED7DE 100%);
+}
+.product_name{
+	width:230px; 
+	height:200px;
+	display:block; 
+	margin:auto;
+}
+h3{
+	color:gray;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+}
+.product_content{	
+	color:gray;
+	margin-left: 30px;
+}
